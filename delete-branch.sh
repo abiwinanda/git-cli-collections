@@ -5,5 +5,4 @@ git delete -d ${BRANCH_NAME}
 git delete -D ${BRANCH_NAME}
 
 # Delete branch in remote. Yep it uses git push
-git push --delete ${REMOTE_NAME} ${BRANCH_NAME}
-
+git push -d ${REMOTE_NAME} ${BRANCH_NAME}
